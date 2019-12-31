@@ -1,0 +1,35 @@
+[2019/12/31 13:55:36] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/12/31 13:55:36] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/12/31 13:55:36] DEBUG [_new_conn: connectionpool.py, 824] Starting new HTTPS connection (1): kq.4000750222.com
+[2019/12/31 13:55:36] DEBUG [_make_request: connectionpool.py, 396] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/12/31 13:55:36] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/12/31 13:55:36] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/12/31 13:55:36] DEBUG [_new_conn: connectionpool.py, 824] Starting new HTTPS connection (1): kq.4000750222.com
+[2019/12/31 13:55:36] DEBUG [_make_request: connectionpool.py, 396] https://kq.4000750222.com:443 "POST /testAccount/account/register?mobile=13710010112&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/12/31 13:55:36] INFO [log_info: log.py, 12] 测试用例：app注册
+[2019/12/31 13:55:36] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/register
+[2019/12/31 13:55:36] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010112, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/12/31 13:55:36] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/12/31 13:55:36] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/12/31 13:55:36] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': '968'}
+[2019/12/31 13:55:36] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/12/31 13:55:36] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/12/31 13:55:36] DEBUG [_new_conn: connectionpool.py, 824] Starting new HTTPS connection (1): kq.4000750222.com
+[2019/12/31 13:55:36] DEBUG [_make_request: connectionpool.py, 396] https://kq.4000750222.com:443 "POST /testAttendance/attendance/datareceive/app?punchInfor=%E6%B5%99%E6%B1%9F%E7%9C%81%E6%9D%AD%E5%B7%9E%E5%B8%82%E4%BD%99%E6%9D%AD%E5%8C%BA%E8%89%AF%E6%B8%9A%E8%A1%97%E9%81%93%E5%A7%9A%E5%AE%B6%E8%B7%AF%E6%9D%AD%E4%B8%9D%E6%97%B6%E8%A3%85%E5%B7%A5%E4%B8%9A%E5%9B%AD&isFieldCard=0&phoneType=2&employeeName=%E4%BA%BA%E4%BA%8B%E9%83%A8_%E4%BA%8E%E8%8F%8A%E4%B9%8B&employJobNumber=25&remarks=%E8%BF%99%E6%98%AF%E5%A4%87%E6%B3%A8&address=%E6%B5%99%E6%B1%9F%E7%9C%81%E6%9D%AD%E5%B7%9E%E5%B8%82%E4%BD%99%E6%9D%AD%E5%8C%BA%E8%89%AF%E6%B8%9A%E8%A1%97%E9%81%93%E5%A7%9A%E5%AE%B6%E8%B7%AF%E6%9D%AD%E4%B8%9D%E6%97%B6%E8%A3%85%E5%B7%A5%E4%B8%9A%E5%9B%AD&punchTime=1570545056&companyId=159&punchMachineType=4&attmachineName=00000000-0000-0000-0000-000000000000&whetherFaceRecognition=2 HTTP/1.1" 200 None
+[2019/12/31 13:55:36] INFO [log_info: log.py, 12] 测试用例：退出登录
+[2019/12/31 13:55:36] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAttendance/attendance/datareceive/app
+[2019/12/31 13:55:36] INFO [log_info: log.py, 14] 请求参数：{"punchInfor": "浙江省杭州市余杭区良渚街道姚家路杭丝时装工业园", "isFieldCard": "0", "phoneType": 2, "employeeName": "人事部_于菊之", "employJobNumber": 25, "remarks": "这是备注", "address": "浙江省杭州市余杭区良渚街道姚家路杭丝时装工业园", "punchTime": 1570545056, "companyId": "159", "punchMachineType": 4, "attmachineName": "00000000-0000-0000-0000-000000000000", "whetherFaceRecognition": 2}
+[2019/12/31 13:55:36] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/12/31 13:55:36] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/12/31 13:55:36] INFO [log_info: log.py, 17] 实际返回值:{'code': 2000, 'message': '添加打卡数据失败，失败原因：该员工没有添加到企业或者没有排班', 'data': ''}
+[2019/12/31 13:55:36] ERROR [pise: answer.py, 43] 用例执行失败，失败原因; 预期值:1 != 实际值:2000
+[2019/12/31 13:55:36] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/12/31 13:55:37] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/12/31 13:55:37] INFO [tearDownClass: run.py, 26] 共失败条:1条,失败用例:退出登录
+

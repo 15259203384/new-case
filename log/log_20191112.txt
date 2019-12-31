@@ -1,0 +1,179 @@
+[2019/11/12 14:53:51] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 14:53:51] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:53:51] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:53:51] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 14:53:51] INFO [log_info: log.py, 12] 测试用例：*登录
+[2019/11/12 14:53:51] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/login
+[2019/11/12 14:53:51] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010111, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 14:53:51] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:53:51] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:53:51] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': {'id': 544, 'mobile': '13710010111', 'password': '', 'platformType': None, 'platformName': None, 'platformId': None, 'token': '2c90ef856daf567a016e5e63d80b0c95', 'userInfo': None, 'companyList': None}}
+[2019/11/12 14:53:51] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:53:51] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:53:51] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:53:51] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 14:53:51] INFO [tearDownClass: run.py, 26] 共失败条:0条,失败用例:
+
+[2019/11/12 14:54:28] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 14:54:28] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:54:28] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:54:28] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 14:54:28] INFO [log_info: log.py, 12] 测试用例：*登录
+[2019/11/12 14:54:28] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/login
+[2019/11/12 14:54:28] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010111, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 14:54:28] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:54:28] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:54:28] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': {'id': 544, 'mobile': '13710010111', 'password': '', 'platformType': None, 'platformName': None, 'platformId': None, 'token': '2c90ef856daf567a016e5e6469b30c96', 'userInfo': None, 'companyList': None}}
+[2019/11/12 14:54:28] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:54:28] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:54:28] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:54:28] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "GET /testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111 HTTP/1.1" 200 None
+[2019/11/12 14:54:28] INFO [log_info: log.py, 12] 测试用例：获取可登录企业
+[2019/11/12 14:54:28] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111
+[2019/11/12 14:54:28] INFO [log_info: log.py, 14] 请求参数：None
+[2019/11/12 14:54:28] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:54:28] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:54:28] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '操作成功!', 'data': [{'image': None, 'enterpriseStatus': 1, 'employeeId': 2070, 'enterpriseId': 159, 'enterpriseName': '阿里巴巴有限公司'}]}
+[2019/11/12 14:54:28] ERROR [pise: answer.py, 42] 用例执行失败，失败原因; 预期值:成功 != 实际值:操作成功!
+[2019/11/12 14:54:28] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:54:28] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 14:54:28] INFO [tearDownClass: run.py, 26] 共失败条:1条,失败用例:获取可登录企业
+
+[2019/11/12 14:54:45] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 14:54:45] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:54:45] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:54:45] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 14:54:45] INFO [log_info: log.py, 12] 测试用例：*登录
+[2019/11/12 14:54:45] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/login
+[2019/11/12 14:54:45] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010111, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 14:54:45] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:54:45] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:54:45] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': {'id': 544, 'mobile': '13710010111', 'password': '', 'platformType': None, 'platformName': None, 'platformId': None, 'token': '2c90ef856daf567a016e5e64acc10c97', 'userInfo': None, 'companyList': None}}
+[2019/11/12 14:54:45] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:54:45] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:54:45] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:54:45] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "GET /testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111 HTTP/1.1" 200 None
+[2019/11/12 14:54:45] INFO [log_info: log.py, 12] 测试用例：获取可登录企业
+[2019/11/12 14:54:45] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111
+[2019/11/12 14:54:45] INFO [log_info: log.py, 14] 请求参数：None
+[2019/11/12 14:54:45] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"操作成功"}
+[2019/11/12 14:54:45] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:54:45] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '操作成功!', 'data': [{'image': None, 'enterpriseStatus': 1, 'employeeId': 2070, 'enterpriseId': 159, 'enterpriseName': '阿里巴巴有限公司'}]}
+[2019/11/12 14:54:45] ERROR [pise: answer.py, 42] 用例执行失败，失败原因; 预期值:操作成功 != 实际值:操作成功!
+[2019/11/12 14:54:45] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:54:45] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 14:54:45] INFO [tearDownClass: run.py, 26] 共失败条:1条,失败用例:获取可登录企业
+
+[2019/11/12 14:55:18] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 14:55:18] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:55:18] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:55:18] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 14:55:18] INFO [log_info: log.py, 12] 测试用例：*登录
+[2019/11/12 14:55:18] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/login
+[2019/11/12 14:55:18] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010111, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 14:55:18] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:55:18] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:55:18] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': {'id': 544, 'mobile': '13710010111', 'password': '', 'platformType': None, 'platformName': None, 'platformId': None, 'token': '2c90ef856daf567a016e5e652c860c98', 'userInfo': None, 'companyList': None}}
+[2019/11/12 14:55:18] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:55:18] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:55:18] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:55:18] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "GET /testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111 HTTP/1.1" 200 None
+[2019/11/12 14:55:18] INFO [log_info: log.py, 12] 测试用例：获取可登录企业
+[2019/11/12 14:55:18] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111
+[2019/11/12 14:55:18] INFO [log_info: log.py, 14] 请求参数：None
+[2019/11/12 14:55:18] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"操作成功!"}
+[2019/11/12 14:55:18] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:55:18] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '操作成功!', 'data': [{'image': None, 'enterpriseStatus': 1, 'employeeId': 2070, 'enterpriseId': 159, 'enterpriseName': '阿里巴巴有限公司'}]}
+[2019/11/12 14:55:18] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:55:18] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 14:55:18] INFO [tearDownClass: run.py, 26] 共失败条:0条,失败用例:
+
+[2019/11/12 14:57:57] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 14:57:57] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:57:57] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:57:57] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 14:57:57] INFO [log_info: log.py, 12] 测试用例：*登录
+[2019/11/12 14:57:57] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/login
+[2019/11/12 14:57:57] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010111, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 14:57:57] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 14:57:57] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:57:57] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '成功', 'data': {'id': 544, 'mobile': '13710010111', 'password': '', 'platformType': None, 'platformName': None, 'platformId': None, 'token': '2c90ef856daf567a016e5e6799ca0c99', 'userInfo': None, 'companyList': None}}
+[2019/11/12 14:57:57] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:57:57] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 14:57:57] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 14:57:57] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "GET /testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111 HTTP/1.1" 200 None
+[2019/11/12 14:57:57] INFO [log_info: log.py, 12] 测试用例：获取可登录企业
+[2019/11/12 14:57:57] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testPersonnel/personnel/employee/get/enterprise/list?phone=13710010111
+[2019/11/12 14:57:57] INFO [log_info: log.py, 14] 请求参数：None
+[2019/11/12 14:57:57] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"操作成功!"}
+[2019/11/12 14:57:57] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 14:57:57] INFO [log_info: log.py, 17] 实际返回值:{'code': 1, 'message': '操作成功!', 'data': [{'image': None, 'enterpriseStatus': 1, 'employeeId': 2070, 'enterpriseId': 159, 'enterpriseName': '阿里巴巴有限公司'}]}
+[2019/11/12 14:57:57] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 14:57:57] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 14:57:57] INFO [tearDownClass: run.py, 26] 共失败条:0条,失败用例:
+
+[2019/11/12 16:27:54] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 16:27:54] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 16:27:54] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 16:27:54] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/login?mobile=13710010111&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 16:27:54] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 16:27:54] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 16:27:54] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 16:27:54] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/register?mobile=13710010112&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 16:27:54] INFO [log_info: log.py, 12] 测试用例：app注册
+[2019/11/12 16:27:54] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/register
+[2019/11/12 16:27:54] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010112, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 16:27:54] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 16:27:54] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 16:27:54] INFO [log_info: log.py, 17] 实际返回值:{'code': 1012, 'message': '该手机号已注册，请直接登录', 'data': ''}
+[2019/11/12 16:27:54] ERROR [pise: answer.py, 43] 用例执行失败，失败原因; 预期值:1 != 实际值:1012
+[2019/11/12 16:27:54] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 16:27:54] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 16:27:54] INFO [tearDownClass: run.py, 26] 共失败条:1条,失败用例:app注册
+
+[2019/11/12 16:47:44] INFO [setUpClass: run.py, 21] 测试开始==========================================
+[2019/11/12 16:47:44] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 16:47:44] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 16:47:44] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 16:47:44] INFO [setUp: run.py, 31] 开始执行用例**************************************
+[2019/11/12 16:47:44] DEBUG [_new_conn: connectionpool.py, 959] Starting new HTTPS connection (1): kq.4000750222.com:443
+[2019/11/12 16:47:44] DEBUG [_make_request: connectionpool.py, 437] https://kq.4000750222.com:443 "POST /testAccount/account/register?mobile=13710010112&password=123456&platformName=%E4%BA%91%E9%BA%A6%E8%80%83%E5%8B%A4%E7%B3%BB%E7%BB%9F&platformType=0&platformId=9 HTTP/1.1" 200 None
+[2019/11/12 16:47:44] INFO [log_info: log.py, 12] 测试用例：app注册
+[2019/11/12 16:47:44] INFO [log_info: log.py, 13] url：https://kq.4000750222.com/testAccount/account/register
+[2019/11/12 16:47:44] INFO [log_info: log.py, 14] 请求参数：{"mobile": 13710010112, "password": 123456, "platformName": "云麦考勤系统", "platformType": 0, "platformId": 9}
+[2019/11/12 16:47:44] INFO [log_info: log.py, 15] 期望结果：{"code":1,"message":"成功"}
+[2019/11/12 16:47:44] INFO [log_info: log.py, 16] 请求pload参数:
+[2019/11/12 16:47:44] INFO [log_info: log.py, 17] 实际返回值:{'code': 1012, 'message': '该手机号已注册，请直接登录', 'data': ''}
+[2019/11/12 16:47:44] ERROR [pise: answer.py, 43] 用例执行失败，失败原因; 预期值:1 != 实际值:1012
+[2019/11/12 16:47:44] INFO [tearDown: run.py, 34] 一个用例执行完毕**********************************
+
+
+[2019/11/12 16:47:44] INFO [tearDownClass: run.py, 25] 测试结束==========================================
+[2019/11/12 16:47:44] INFO [tearDownClass: run.py, 26] 共失败条:1条,失败用例:app注册
+
